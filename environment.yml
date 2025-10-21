@@ -1,0 +1,26 @@
+name: VLM-Vac
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.14
+  - numpy=1.26.4
+  - matplotlib=3.9.1
+  - scikit-learn=1.5.1
+  - pillow=10.4.0
+  - pyyaml=6.0.2
+  - ipython=8.18.1
+  - python-dotenv=0.19.2
+  - cudnn=9.1
+  - pip
+  - pip:
+      - torch==2.4.1+cu121
+      - torchvision==0.19.1+cu121
+      - tensorflow==2.15.0
+      - ultralytics==8.3.75
+      - transformers==4.51.3
+      - openai==1.42.0
+      - opencv-python==4.10.0.84
+      - nvidia-cublas-cu12
+      - nvidia-cudnn-cu12
+      - nvidia-cuda-runtime-cu12
+      - --extra-index-url https://download.pytorch.org/whl/cu121
