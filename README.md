@@ -9,7 +9,8 @@ This repository accompanies the paper:
 > Reihaneh Mirjalili, Michael Krawez, Florian Walter, Wolfram Burgard — 2025
 
 ---
-To generate the nine virtual days, download the VLM-Vac_dataset: !wget https://huggingface.co/datasets/rmirjalili/VLM-Vac-dataset/resolve/main/VLM-Vac-dataset.zip
+To generate the nine virtual days, download the VLM-Vac_dataset:  https://huggingface.co/datasets/rmirjalili/VLM-Vac-dataset/resolve/main/VLM-Vac-dataset.zip
+
 Then run the notebook Language_description_generator/data_sorter.ipynb
 
 Before running any experiments, language descriptions must be generated.  
