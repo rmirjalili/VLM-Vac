@@ -27,7 +27,7 @@ Finally, to run the main processing pipeline, run this notebook: main.ipynb
 
 The results/ directory contains comprehensive performance data for multiple learning strategies:
 
-- umulative Learning
+- Cumulative Learning
 - Language-Based Experience Replay (ER)
 - Naive Fine-Tuning
 
